@@ -1,6 +1,6 @@
 "use strict";
 // function 
-function greet(name) {
-    return "Hello " + name;
+function greet(fname, lname) {
+    return `Hello, ${fname}-${lname}`;
 }
-console.log(greet('Shuvo'));
+console.log(greet('Shuvo', 'Das'));
