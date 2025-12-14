@@ -1,6 +1,6 @@
-function add(a: number, b: number): number{
-    return a+b;
-}
+// function add(a: number, b: number): number{
+//     return a+b;
+// }
 
 // arrow function
 const sum =(a: number, b:number): number =>  a+b;
