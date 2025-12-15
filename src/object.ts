@@ -23,6 +23,7 @@ showUser(users)
 
 type Product = {
     id: number,
+    category: string,
     name: string,
     brand: string,
     price:number,
@@ -32,7 +33,7 @@ type Product = {
 function showProduct(product: Product){
     console.log(`The product name is ${product.name},This is the very known company of ${product.brand}. Its price ${product.price} and ist variant and details is ${product.details}`)
 }
-const product1 ={
+const product1:Product ={
     id: 1,
     category:"Mobile",
     name:"iPhone 17",
