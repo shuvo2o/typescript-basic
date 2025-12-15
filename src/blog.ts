@@ -5,6 +5,13 @@ type BlogPost ={
     publishedDate:string,
     tags?: string[],
 }
+interface Blog{
+    title: string,
+    author:string,
+    content:string,
+    publishedDate:string,
+    tags?: string[],
+}
 
 function showBlogPost(post: BlogPost){
     console.log(`The Blogs title is ${post.title} and its makers is ${post.author} and its content ${post.content}, its published on ${post.publishedDate}. Ther similar tags for find book ${post.tags} tags`)
