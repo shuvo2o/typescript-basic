@@ -7,18 +7,18 @@ function printUser(user:{name:string, age:number}){
 }
 printUser(student);
 
-type User={
-    name: string,
-    age: number
-}
-function showUser(user: User){
-    console.log(user.name);
-    console.log(user.age);
-}
-const users= {
-  name: "Alice", age:20
-}
-showUser(users)
+// type User={
+//     name: string,
+//     age: number
+// }
+// function showUser(user: User){
+//     console.log(user.name);
+//     console.log(user.age);
+// }
+// const users= {
+//   name: "Alice", age:20
+// }
+// showUser(users)
 
 
 type Product = {
