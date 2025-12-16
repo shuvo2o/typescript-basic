@@ -12,3 +12,11 @@ const admin = {
     isAdmin: true,
 };
 console.log(admin);
+function handelAction(action) {
+    console.log(`Action: ${action}`);
+}
+handelAction("start");
+handelAction("stop");
+handelAction("pause");
+handelAction("submit");
+handelAction("reset");
