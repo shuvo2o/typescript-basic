@@ -9,7 +9,7 @@ interface HasId{
     id:number
 }
 
-function getId<T extends HasId>(item:T){
+function getId<Type extends HasId>(item:Type){
     return item.id;
 }
 const result = getId({id: 40})
