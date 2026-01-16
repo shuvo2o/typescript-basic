@@ -1,1 +1,1 @@
-Its a basic typescript practice for practical project
+It's a basic typescript practice for project
